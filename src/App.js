@@ -76,7 +76,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           {data && (
             <FlameCard
-              statueF={data.RealtimeData.tempStatue}
+              statueF={data.RealtimeData.flame}
             />
           )}
         </Grid>
